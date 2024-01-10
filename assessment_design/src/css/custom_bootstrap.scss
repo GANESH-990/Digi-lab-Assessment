@@ -1,0 +1,52 @@
+// Import the entire Bootstrap functions and variable
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+
+//custom spacers
+$custom-spacers: (
+
+//fractions
+  f1: 0.25rem,
+  f2:0.50rem,
+  f3:0.75rem,
+
+  f4:1.25rem,
+  f5:1.50rem,
+  f6:1.75rem,
+
+  f7:2.25rem,
+  f8:2.50rem,
+  f9:2.75rem,
+
+  // whole numbers
+  c1: 1rem,
+  c2: 2rem,
+  c3: 3rem,
+  c4: 4rem,
+  c5: 5rem,
+  c6: 6rem,
+  c7: 7rem,
+
+  //percentage
+  12d5pt: 12.5%,
+  25pt: 25%,
+
+);
+
+//custom colors
+$custom-colors:(
+  "Neutral1200":#EEEFEF,
+  "Neutral400":#5A6475,
+  "Neutral50":#121417,
+  "PriPurple400": #582066,
+  "PriPurple900":#F4EFF6
+
+);
+
+//merge spacers
+$spacers: map-merge($spacers, $custom-spacers);
+
+//merge colors
+$theme-colors:map-merge($theme-colors, $custom-colors );
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

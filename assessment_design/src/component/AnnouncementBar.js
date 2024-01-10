@@ -1,7 +1,7 @@
 export default function AnnouncementBar(){
     return(
         <>
-        <p>announcement bar component</p>
+        <p className="bg-Neutral50">announcement bar component</p>
         
         </>
     )

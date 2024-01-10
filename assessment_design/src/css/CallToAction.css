@@ -1,91 +1,41 @@
+/* monitor styling */
 
-  /* monitor styling */
+._title {
+  /* width: 640px; */
+  color: #121417;
+  text-align: center;
+  /* font-family: Manrope; */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  padding: 0px 8px;
+}
 
-
-
-      ._title {
-        /* width: 640px; */
-        color: #121417;
-        text-align: center;
-        /* font-family: Manrope; */
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 48px;
-        padding: 0px 8px;
-      }
-      
-      ._action {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        align-self: stretch;
-      }
-      
-
-
-
-
-
-  
-  /* tablet styling*/
-  @media (min-width: 576px) and (max-width: 990px) {
-
-      ._title {
-        color: #121417;
-        text-align: center;
-        /* font-family: Manrope; */
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 48px;
-      }
-      
-      ._action {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        align-self: stretch;
-      }
-
-      
+/* tablet styling*/
+@media (min-width: 576px) and (max-width: 990px) {
+  ._title {
+    color: #121417;
+    text-align: center;
+    /* font-family: Manrope; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
   }
-  
+}
 
+/*  mobile view  */
 
-
-  /*  mobile view  */
-
-  @media (max-width: 575px) {
-
-
-      
-
-
-      
-      ._title {
-        min-width: 100%;
-        color: #121417;
-        text-align: center; 
-         /* font-family: Manrope;  */
-         font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 40px;
-      }
-      
-      ._action {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        align-self: stretch;
-        align-items: stretch;
-      }
-
-      
-    
+@media (max-width: 575px) {
+  ._title {
+    min-width: 100%;
+    color: #121417;
+    text-align: center;
+    /* font-family: Manrope;  */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
   }
+}
