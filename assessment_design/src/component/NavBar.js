@@ -1,3 +1,6 @@
+
+
+
 export default function NavBar() {
   return (
     <>
@@ -89,8 +92,6 @@ export default function NavBar() {
                   </svg>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
