@@ -4,13 +4,13 @@ import logo6 from "../assets/logo6.png";
 export default function LogoCloud() {
   return (
     <>
-      <div className="px-lg-c5 px-sm-c2 px-c1 py-sm-c6 py-c4 border">
-        <div className="px-sm-c2 px-0 border">
-          <div className=" d-flex justify-content-between border flex-wrap">
+      <div className="px-lg-c5 px-sm-c2 px-c1 py-sm-c6 py-c4 ">
+        <div className="px-sm-c2 px-0 ">
+          <div className=" d-flex justify-content-between  flex-wrap">
 
 
             {/* ----------------logos------------ */}
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="98"
@@ -53,7 +53,7 @@ export default function LogoCloud() {
               </svg>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="69"
@@ -70,11 +70,11 @@ export default function LogoCloud() {
               </svg>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <img src={logo3} alt="logo3"></img>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="107"
@@ -101,7 +101,7 @@ export default function LogoCloud() {
               </svg>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="99"
@@ -118,11 +118,11 @@ export default function LogoCloud() {
               </svg>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <img src={logo6} alt="logo6"></img>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="103"
@@ -149,7 +149,7 @@ export default function LogoCloud() {
               </svg>
             </div>
 
-            <div className=" p-f2 border">
+            <div className=" p-f2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="132"
